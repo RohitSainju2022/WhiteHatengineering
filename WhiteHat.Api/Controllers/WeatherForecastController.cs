@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WhiteHatengineering_API.Controllers
+namespace WhiteHat.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
