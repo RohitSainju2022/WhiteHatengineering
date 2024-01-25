@@ -1,4 +1,4 @@
-namespace WhiteHatengineering_API
+namespace WhiteHat.Api
 {
     public class WeatherForecast
     {
