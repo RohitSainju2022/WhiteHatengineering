@@ -1,5 +1,5 @@
-using WhiteHat.Data.ApplicationDbContext;
 using Microsoft.EntityFrameworkCore;
+using WhiteHat.Data.WhiteHatDbContext;
 
 var builder = WebApplication.CreateBuilder(args);
 

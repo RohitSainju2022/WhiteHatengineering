@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using WhiteHat.Data.EntityMap;
 using WhiteHat.Models;
 
-namespace WhiteHat.Data.ApplicationDbContext
+namespace WhiteHat.Data.WhiteHatDbContext
 {
     public class ApplicationDbContext: DbContext
     {
@@ -16,13 +16,17 @@ namespace WhiteHat.Data.ApplicationDbContext
         {
                 
         }
+        public ApplicationDbContext()
+        {
 
+        }
         public virtual DbSet<UserInfo> UserInfoes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new UserInfoMap());
+            ApplicationDbConfiguration.Seed(modelBuilder);
         }
     }
 }

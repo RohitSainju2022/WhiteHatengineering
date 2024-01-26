@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using WhiteHat.Data.DefaultSeed;
 using WhiteHat.Models;
 
-namespace WhiteHat.Data.ApplicationDbContext
+namespace WhiteHat.Data.WhiteHatDbContext
 {
     public class ApplicationDbConfiguration
     {
