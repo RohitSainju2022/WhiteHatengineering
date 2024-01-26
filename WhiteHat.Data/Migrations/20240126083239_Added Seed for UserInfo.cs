@@ -26,4 +26,4 @@ namespace WhiteHat.Data.Migrations
                 keyValue: new Guid("9668dc45-23af-4cae-a85b-3711bb1b4247"));
         }
     }
-}
+} 
