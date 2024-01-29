@@ -32,11 +32,11 @@ namespace WhiteHat.Api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> GetByIdAsync(Guid id)
         {
-            //var response = await _mediator.Send(new GetUserByIdQuery(id));
-            //if (response != null)
-            //{
-            //    return Ok(response);
-            //}
+            var response = await _mediator.Send(new GetUserByIdQuery(id));
+            if (response != null)
+            {
+                return Ok(response);
+            }
             return BadRequest();
         }
 
