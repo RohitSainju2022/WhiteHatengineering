@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using WhiteHat.Data.WhiteHatDbContext;
+using WhiteHat.MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMediatR(m => m.RegisterServicesFromAssembly(typeof(MediatREntrypoint).Assembly));
+
 
 var app = builder.Build();
 
