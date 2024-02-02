@@ -11,9 +11,9 @@ namespace WhiteHat.Ui.Models.Models
     {
         public Guid UserId { get; set; }
 
-        public string Username { get; set; } = default!;
+        //public string Username { get; set; } = default!;
 
-        public string Email { get; set; } = default!;
+        //public string Email { get; set; } = default!;
 
         public string FirstName { get; set; } = default!;
 
