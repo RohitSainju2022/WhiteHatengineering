@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteHat.Data", "WhiteHat.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteHat.MediatR", "WhiteHat.MediatR\WhiteHat.MediatR.csproj", "{05E0C3E5-E71B-4CC0-B79E-1555741E2BD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteHat.Common", "WhiteHat.Common\WhiteHat.Common.csproj", "{71B867F2-1470-46F5-97E5-004CB7724694}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteHat.Common", "WhiteHat.Common\WhiteHat.Common.csproj", "{71B867F2-1470-46F5-97E5-004CB7724694}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteHat.Ui.Models", "WhiteHat.Ui.Models\WhiteHat.Ui.Models.csproj", "{460699A7-6715-4501-96CC-0E2533D926D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteHat.Ui.Models", "WhiteHat.Ui.Models\WhiteHat.Ui.Models.csproj", "{460699A7-6715-4501-96CC-0E2533D926D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteHat.Share", "WhiteHat.Share\WhiteHat.Share.csproj", "{701542AB-D69E-4E09-90D6-E0588304090E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{460699A7-6715-4501-96CC-0E2533D926D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460699A7-6715-4501-96CC-0E2533D926D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460699A7-6715-4501-96CC-0E2533D926D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701542AB-D69E-4E09-90D6-E0588304090E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701542AB-D69E-4E09-90D6-E0588304090E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701542AB-D69E-4E09-90D6-E0588304090E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701542AB-D69E-4E09-90D6-E0588304090E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{05E0C3E5-E71B-4CC0-B79E-1555741E2BD9} = {DE30C635-FE54-49B4-A2AC-1AD3C772370D}
 		{71B867F2-1470-46F5-97E5-004CB7724694} = {365FE7A6-4811-4DA5-A665-80178261002B}
 		{460699A7-6715-4501-96CC-0E2533D926D9} = {0422CDD5-EF00-4125-9EA3-AD95F44DB668}
+		{701542AB-D69E-4E09-90D6-E0588304090E} = {A553E405-4EC1-4EEE-B5A6-8691027AFF88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E0CA066-CE6B-40AB-993B-0FA1160F5790}
