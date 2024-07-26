@@ -14,6 +14,7 @@ namespace WhiteHat.Data.WhiteHatDbContext
         public static void Seed(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<UserInfo>().HasData(UserSeed.DefaultUserInfoSeed());
+            modelBuilder.Entity<Construction>().HasData(ConstructionSeed.DefaultConstructionSeed());
         }
     }
 }

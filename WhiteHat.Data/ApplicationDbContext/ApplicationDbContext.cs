@@ -22,10 +22,13 @@ namespace WhiteHat.Data.WhiteHatDbContext
         }
         public virtual DbSet<UserInfo> UserInfoes { get; set; }
 
+        public virtual DbSet<Construction> Constructions { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new UserInfoMap());
+            modelBuilder.ApplyConfiguration(new ConstructionMap());
             ApplicationDbConfiguration.Seed(modelBuilder);
         }
     }
